@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+/*font-family: 'Roboto', sans-serif;  */
+
+
 body {
-    background-color: navy;
+    background-color: white;
 }
 
 
 object {
     height: 100vh;
     width: 100vh;
+}
+
+div {
+    text-align: center;
+    border: 2px dash red;
+    width: 100px;
+    height: 900px;
+    padding-right: 25%;
+}
+
+#div1 {
+    background: linear-gradient(to left bottom, blue, pink);
+    float: right;
+}
+#div2{
+
+background-color: aqua;
+float: right;
 }
