@@ -1,9 +1,39 @@
 body {
-    background-color: navy;
+    background-color: beige;
 }
 
+div{
+  height: auto;
+  width: auto;
+  background-color: red;
+  color: red;
+}
+div h1{
+  color: Black;
+  text-align: center;
+  margin: auto;
+}
+p{
 
-object {
-    height: 100vh;
-    width: 100vh;
+}
+.aboutBox{
+  height: 500px;
+  width: 900px;
+  box-shadow: 5px 10px grey;
+  transition-property: background-color, color;
+  transition-duration: 1s, 2s;
+  font-size: 28px;
+}
+.aboutBox:hover{
+  background-color: beige;
+  color: black;
+}
+.contactBox{
+  position: absolute;
+  right: 0px;
+  height: 1000px;
+  width: 500px;
+  background-color: blue;
+  color: white;
+  text-align: center;
 }
