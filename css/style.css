@@ -34,22 +34,27 @@ body {
 position:relative;
 }
 .right,.left{
-width:46%; 
 position:absolute;
 }
 .right{
 right:30px;
+width:50%; 
 }
 .left{
-left:30px;
+left:100px;
+width: 30%;
+background-color: #d1d1e0;
+}
+.nav{
+margin: 50px;
 }
 
 /*--/ image /--*/
 .center {
-display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
 }
 .logo {
 width:7%;
