@@ -41,3 +41,31 @@ p{
 .menu_item{
   flex: 1;
 }
+
+/*Title*/
+.title_container{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.title_container h3{
+  padding-top: 10px;
+  flex: 7;
+}
+.title_container h1{
+  flex: 1;
+}
+
+.main_content{
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.main_content .sub_main{
+  width: 80%
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
