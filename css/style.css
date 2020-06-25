@@ -1,9 +1,71 @@
 body {
-    background-color: navy;
+    background-color: beige;
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+p{
 
-object {
-    height: 100vh;
-    width: 100vh;
+}
+.menu_container{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  font-family: cursive;
+  font-weight: 300;
+  color: white;
+}
+.menu_item nav ul{
+  display: flex;
+}
+
+.menu_item nav ul li a{
+  color: white;
+  padding: 21px 37px;
+  border-radius: 3px;
+}
+
+.menu_item nav ul li a:hover{
+  background-color: yellow;
+  color: blue;
+}
+
+.menu_item{
+  flex: 1;
+}
+
+/*Title*/
+.title_container{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.title_container h3{
+  padding-top: 10px;
+  flex: 7;
+}
+.title_container h1{
+  flex: 1;
+}
+
+.main_content{
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.main_content .sub_main{
+  width: 80%
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
