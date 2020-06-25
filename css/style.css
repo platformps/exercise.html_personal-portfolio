@@ -2,38 +2,42 @@ body {
     background-color: beige;
 }
 
-div{
-  height: auto;
-  width: auto;
-  background-color: red;
-  color: red;
+html, body{
+  margin: 0;
+  padding: 0;
 }
-div h1{
-  color: Black;
-  text-align: center;
-  margin: auto;
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
 }
 p{
 
 }
-.aboutBox{
-  height: 500px;
-  width: 900px;
-  box-shadow: 5px 10px grey;
-  transition-property: background-color, color;
-  transition-duration: 1s, 2s;
-  font-size: 28px;
-}
-.aboutBox:hover{
-  background-color: beige;
-  color: black;
-}
-.contactBox{
-  position: absolute;
-  right: 0px;
-  height: 1000px;
-  width: 500px;
-  background-color: blue;
+.menu_container{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  font-family: cursive;
+  font-weight: 300;
   color: white;
-  text-align: center;
+}
+.menu_item nav ul{
+  display: flex;
+}
+
+.menu_item nav ul li a{
+  color: white;
+  padding: 21px 37px;
+  border-radius: 3px;
+}
+
+.menu_item nav ul li a:hover{
+  background-color: yellow;
+  color: blue;
+}
+
+.menu_item{
+  flex: 1;
 }
