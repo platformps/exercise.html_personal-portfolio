@@ -5,56 +5,74 @@
   <title>Portfolio</title>
   <link href="./css/style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/80f76cee12.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <div id="main-div">
-    <h2><i class="fas fa-user-circle"></i>ABOUT ME</h2>
-    <p>Recent graduate with a Bachelor of Science in CIS</p>
-
-    <h2><i class="fas fa-graduation-cap"></i>EDUCATION</h2>
-    <h3>Bachelor of Science in Computer Information Systems - Pfeiffer University</h3>
-    <p>Coursework includes:<br>
-    <ul>
-      <li>Programming languages: Java, C#, Python, C++, C, VB</li>
-      <li>Data Analytics</li>
-      <li>SQL</li>
-      <li>Networking</li>
-      <li>Information Security</li>
-    </ul></p>
-    
-    <h2><i class="fas fa-briefcase"></i>EXPERIENCES</h2>
-    <h3>Software Development / Information Technology Intern</h3>
-    <h4>City of Salisbury - Salisbury, NC *** Jan 2020 - Mar 2020</h4>
-    <p>**Ended Early due to COVID-19**
-      As an intern with the City of Salisbury I worked on adding features and 
-      functionality to different programs used in various departments. I worked 
-      with .NET languages with a main focus on C#. Also used WPF for some GUI 
-      forms to gather information from the user. Another program was written in 
-      VB as well. I have added code, debugged code, and troubleshot programs that 
-      re not working as designed. When no coding work was available I also helped 
-      the helpdesk technician and shadowed others at times.</p>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <!-- <a class="navbar-brand" href="#">My Portfolio</a> -->
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto"> <!-- Right side of navbar -->
+          <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiences</a>
+          </li>
+      </ul>
   </div>
 
-  <div id="sidebar">
-    
-    <div class="sidebar-top">
-      <div class="img-holder">
-        <img src="./img/grad.jpg" alt="profile pic" width="50%">
-      </div>
-      <h1>Nick DeVos</h1><br>
-      <h3 style="color: white;">CIS Graduate<br>Junior Software Engineer Candidate</h3><br>  
-    </div>
-   <div class="sidebar-bottom">
-     <h3 style="color: white; text-align: center;">Contact Information</h3>
-      <ul>
-        <i class="far fa-envelope"></i><a href="mailto:nickdevos123@yahoo.com">nickdevos123@yahoo.com</a><br>
-        <i class="fas fa-phone"></i>555-555-5555<br>
-        <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/nick-devos/">linkedin.com/in/nick-devos</a><br>
-        <i class="fab fa-github"></i><a href="https://github.com/nick-devos">github.com/nick-devos</a><br>
+  <div class="mx-auto order-0"> <!-- Middle of navbar -->
+    <a class="navbar-brand mx-auto" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto"> <!-- Left side of navbar -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/nick-devos/"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://github.com/nick-devos"><i class="fab fa-github"></i></a>
+          </li>
       </ul>
-    </div>
+  </div>
+  </nav>
+  
+  <!-- Section 1 -->
+  <div id="home">
+    <h1>HOME</h1>
+    <p style="font-size: xx-large;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit vero nisi id quis nesciunt esse at. Iste, quos reprehenderit dolorum vero eveniet qui officiis veritatis animi. Expedita, dolores fuga! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis aperiam nulla unde eveniet, excepturi illum architecto nam eligendi repellendus nemo eos autem delectus voluptatum ab id neque? Repellat, distinctio earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ea sit dolore beatae eligendi corporis? Deserunt perspiciatis adipisci doloribus obcaecati vel labore, reiciendis sapiente blanditiis asperiores praesentium culpa saepe laboriosam.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati consectetur cupiditate numquam sunt totam debitis corrupti, veniam nulla odio velit hic labore modi beatae, pariatur alias praesentium iste fugiat nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
+  </div>
+  <div id="about">
+    <h1>ABOUT</h1>
+    <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
+  </div>
+  <div id="education">
+    <h1>EDUCATION</h1>
+    <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
+  </div>
+  <div id="experience">
+    <h1>EXPERIENCE</h1>
+    <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
   </div>
 
 </body>
