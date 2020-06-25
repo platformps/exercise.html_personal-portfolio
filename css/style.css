@@ -1,9 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position:relative;
+    left:800px;    
+    top:320px;
+    font-size: 30px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+
+    color: #5ba7d1;
+    text-align: left;
+    text-underline-position: below;
+
+}
+
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h4{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
 body {
-    background-color: navy;
+    background-color: white;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    width: 300px;
+    border: 5px solid rgb(224, 67, 67);
+    padding: 10px;
+    /* #73AD21 */
 }
 
-
-object {
-    height: 100vh;
-    width: 100vh;
+#div1 {
+    background-color: #335384;
+    float: right; 
+    width: 400px;
+    height: 800px;
 }
+
+#div2{
+
+background-color:#467aab;
+float: right;
+width: 400px;
+height: 400px;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #402f44  ;
+}
+
+.contacts span{
+    font-family:'Dancing Script', cursive;
+    position:relative;
+    left:1280px;    
+    bottom:400px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+table {
+     border: 3px groove black;
+  }
+
+th {
+    text-align: center;
+  }
