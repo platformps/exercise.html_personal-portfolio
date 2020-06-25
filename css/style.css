@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    background-color: white;
-    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -31,21 +31,28 @@ a {
     color: white;
 }
 
-i {
+.sidebar-bottom i {
     margin: 10px;
+}
+
+#main-div i {
+    margin: 15px;
 }
 
 #main-div {
     float: left;
     width: 65%;
-    height: 100%;
+    height: auto;
     padding: 20px;
 }
 #sidebar {
-    background-color: darkcyan;
+    background: linear-gradient(to bottom, rgb(82, 128, 120), rgb(132, 226, 198));
     float: right;
     width: 25%;
-    height: 100%;
+    height: 800px;
+    border-style: ridge;
+    border-width: 5;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .img-holder {
@@ -56,12 +63,12 @@ i {
 
 .sidebar-top {
     text-align: center;
-    height: 70%;
+    height: 540px;
 }
 
 .sidebar-bottom {
     color: white;
-    height: 30%;
-    background-color: rgb(2, 109, 136);
-    padding: 15px;
+    height: 220px;
+    background: linear-gradient(to bottom, rgba(4, 86, 107, 0.884), rgb(31, 145, 180));
+    padding: 20px;
 }
