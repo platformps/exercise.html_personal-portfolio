@@ -1,9 +1,43 @@
-body {
-    background-color: navy;
+.a{
+    background-color: white;
+    border: 0px #cccccc solid;
+    padding: 2px;
+    width:  45%;
+    height: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+
 }
+.b{
+     margin-left: 12%;
+     margin-right: 10%;
 
 
-object {
-    height: 100vh;
-    width: 100vh;
+     background-color:;
+     border: 3px solid black;
+ }
+
+.c{
+     margin-left: 0%;
+     margin-right: 0%;
+     width:  120%;
+     background-color:;
+     border: 0px solid black;
+
+ }
+
+figure {
+  background-color: black;
+  border: 2px #cccccc solid;
+  padding: 2px;
+  margin: 2%;
+  float:right;
+
+}
+figcaption {
+  background-color: none;
+  color: white;
+  font-style: italic;
+  text-align: Center;
 }
