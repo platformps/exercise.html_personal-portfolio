@@ -2,18 +2,47 @@
 
 body {
     overflow-x: hidden;
-
 }
 
 .navbar {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
     letter-spacing: .1rem;
-    background-color: rgba(0, 0, 0 , 0.6)!important;
+    background-color: rgba(0, 0, 0 , 0.7)!important;
     font-family: 'Permanent Marker', cursive;
 }
 
 .navbar-brand {
     font-size: x-large!important;
+    color: rgb(137, 199, 228)!important;
+    font-weight: 800;
+}
+
+.nav-item .nav-link {
+    color: white!important;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: rgb(137, 199, 228)!important;
+}
+
+.home-text {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    color: white;
+    z-index: 1;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 3px black;
+    padding-bottom: 20px;
+}
+
+.home-inner {
+    background: url(../img/python.jpg)!important;
 }
