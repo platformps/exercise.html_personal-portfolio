@@ -12,65 +12,76 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <!-- <a class="navbar-brand" href="#">My Portfolio</a> -->
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mr-auto"> <!-- Right side of navbar -->
+<!----------------- BEGIN NAV ----------------->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 navbar">
+      <ul class="navbar-nav mr-auto"> <!-- Left side of navbar -->
           <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#about">About</a>
         </li>
           <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#experience">Experiences</a>
+              <a class="nav-link" href="#experience">Experience</a>
           </li>
       </ul>
   </div>
 
   <div class="mx-auto order-0"> <!-- Middle of navbar -->
-    <a class="navbar-brand mx-auto" href="#">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+    <a class="navbar-brand mx-auto" href="#" style="color: rgb(137, 199, 228);">NICK DEVOS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar">
         <span class="navbar-toggler-icon"></span>
     </button>
 </div>
-  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto"> <!-- Left side of navbar -->
+
+  <div class="collapse navbar-collapse w-100 order-3 navbar">
+      <ul class="navbar-nav ml-auto"> <!-- Right side of navbar -->
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+          <a class="nav-link" href="mailto:nickdevos123@yahoo.com" data-toggle="tooltip" data-placement="bottom" title="Email: nickdevos123@yahoo.com"><i class="far fa-envelope"></i></a>
         </li>
           <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/nick-devos/"><i class="fab fa-linkedin"></i></a>
+              <a class="nav-link" href="https://www.linkedin.com/in/nick-devos/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="https://github.com/nick-devos"><i class="fab fa-github"></i></a>
+              <a class="nav-link" href="https://github.com/nick-devos" target="_blank"><i class="fab fa-github"></i></a>
           </li>
       </ul>
   </div>
   </nav>
-  
-  <!-- Section 1 -->
+<!----------------- END NAV ----------------->  
+ 
+  <div class="home-page">
+    <div class="home-wrapper">
+      <div class="home-inner">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="home-text text-center">
+    <h1>Welcome</h1>
+    <h3>I am Nick DeVos</h3>
+    <a class="btn btn-outline-light btn-lg" href="#about">About Me</a>
+  </div>
+
   <div id="home">
     <h1>HOME</h1>
     <p style="font-size: xx-large;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit vero nisi id quis nesciunt esse at. Iste, quos reprehenderit dolorum vero eveniet qui officiis veritatis animi. Expedita, dolores fuga! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis aperiam nulla unde eveniet, excepturi illum architecto nam eligendi repellendus nemo eos autem delectus voluptatum ab id neque? Repellat, distinctio earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ea sit dolore beatae eligendi corporis? Deserunt perspiciatis adipisci doloribus obcaecati vel labore, reiciendis sapiente blanditiis asperiores praesentium culpa saepe laboriosam.
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati consectetur cupiditate numquam sunt totam debitis corrupti, veniam nulla odio velit hic labore modi beatae, pariatur alias praesentium iste fugiat nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
   </div>
-  <div id="about">
+  <div id="about" class="offset">
     <h1>ABOUT</h1>
     <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
   </div>
-  <div id="education">
+  <div id="education" class="offset">
     <h1>EDUCATION</h1>
     <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
   </div>
-  <div id="experience">
+  <div id="experience" class="offset">
     <h1>EXPERIENCE</h1>
     <p style="font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia magnam eos laboriosam ullam. Ea rem nulla illo, sunt impedit suscipit possimus quisquam in odit fugiat deserunt, ad quasi nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quasi nam corrupti illo, quidem recusandae, aliquid accusantium dolor incidunt dolorem totam voluptatem dolorum! Maxime tempore laboriosam eveniet laudantium delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur nobis maiores nihil tenetur quisquam, eos sint quos natus sunt reprehenderit quod debitis qui molestiae libero voluptatem velit unde aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facere quae officiis beatae cum porro blanditiis sed consectetur, officia accusamus quasi incidunt culpa accusantium omnis debitis ratione cumque. Nesciunt, voluptatibus.</p>
   </div>

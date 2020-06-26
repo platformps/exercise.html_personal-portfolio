@@ -1,3 +1,19 @@
-navbar-nav i {
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0 , 0.6)!important;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-brand {
+    font-size: x-large!important;
 }
