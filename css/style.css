@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
+/******************* navbar *******************/
 .navbar {
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -13,7 +16,7 @@ body {
 
 .navbar-brand {
     font-size: x-large!important;
-    color: rgb(137, 199, 228)!important;
+    color: #009fe0!important;
     font-weight: 800;
 }
 
@@ -23,26 +26,71 @@ body {
 
 .nav-item .nav-link.active,
 .nav-item .nav-link:hover {
-    color: rgb(137, 199, 228)!important;
+    color: #009fe0!important;
 }
+/******************* end navbar *******************/
 
-.home-text {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 38%;
-    color: white;
-    z-index: 1;
-}
 
-.home-text h1 {
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    text-shadow: 1px 1px 3px black;
-    padding-bottom: 20px;
-}
-
+/******************* home *******************/
 .home-inner {
-    background: url(../img/python.jpg)!important;
+    background-image: url(../img/python.jpg)!important;
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
+
+.intro {
+    
+    color: rgb(1, 223, 72);
+    font-size: 38px;
+    font-weight: 200!important;
+    letter-spacing: 3px;
+    padding-bottom: 16px;
+    font-family: 'Maitree', serif;
+    position: absolute;
+    text-align: center;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: rgb(1, 223, 72)!important;
+    border-color: rgb(1, 223, 72)!important;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/******************* end home *******************/
+
+/******************* about *******************/
+.pic-holder {
+    background-image: url(../img/grad.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+/******************* end about *******************/
+
+#fixed {
+    background-image: url(../img/code.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+/******************* education *******************/
+
+/******************* end education *******************/
+
+
