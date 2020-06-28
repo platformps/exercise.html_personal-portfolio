@@ -121,6 +121,10 @@ body {
     padding-left: 10%;
     text-shadow: 2px 2px 3px black;
 }
+
+.progress {
+    border-radius: 50%;
+}
 /******************* end about *******************/
 
 /******************* education *******************/
@@ -151,9 +155,12 @@ body {
 /******************* end education *******************/
 
 /******************* experience *******************/
-#experience .jumbotron {
-    margin-bottom: 0;
-    border-radius: 0;
+#experience {
+    font-family: 'Lato', sans-serif;
+}
+
+#experience h1 {
+    text-shadow: 2px 2px 3px black;
 }
 /******************* end experience *******************/
 
