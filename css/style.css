@@ -1,7 +1,6 @@
 
 .flex-container{
     border: groove lightgray 20px;
-    background-color: #c06c84;
     padding: 25px;
     margin: 50px;
     display: flex;
@@ -23,7 +22,8 @@
 }
 
 h1, h4, h3{
-    color: peachpuff;
+    color: #c06c84;
+    ;
 }
 
 h2 {
@@ -47,6 +47,8 @@ padding-bottom: 20px;
     background-color: #355c7d;
     height: 790px;
     text-align: center;
+    color: peachpuff;
+    padding-top: 30px;
 } 
 
 .image:hover {
