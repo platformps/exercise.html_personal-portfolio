@@ -61,11 +61,11 @@ body {
 }
 
 .intro {
-    
+    overflow: hidden;
+    white-space: nowrap;
     color: rgb(1, 223, 72);
-    font-size: 38px;
+    font-size: 2rem;
     letter-spacing: 3px;
-    padding-bottom: 16px;
     font-family: 'Maitree', serif;
     position: absolute;
     text-align: center;
@@ -78,9 +78,14 @@ body {
     color: rgb(1, 223, 72)!important;
     border-color: rgb(1, 223, 72)!important;
     position: absolute;
-    top: 88%;
+    top: 89%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+    background-color: rgb(1, 223, 72);
+    color: white!important;
 }
 /******************* end home *******************/
 
