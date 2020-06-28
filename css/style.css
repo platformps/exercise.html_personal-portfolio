@@ -126,10 +126,6 @@ body {
     padding-left: 10%;
     text-shadow: 2px 2px 3px black;
 }
-
-.progress {
-    border-radius: 50%;
-}
 /******************* end about *******************/
 
 /******************* education *******************/
@@ -189,3 +185,5 @@ footer {
     padding: 5px;
     color: white;
 }
+
+/********************************************************/
