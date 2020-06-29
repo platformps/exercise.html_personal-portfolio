@@ -1,0 +1,44 @@
+body {
+    font-family: Cambria;
+    font-size: 14px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 66% 34%;
+    overflow: hidden;
+}
+
+.content {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 5px;
+  height: fit-content;
+}
+
+.content > h2{
+  color: #008b8b;
+}
+
+.info {
+  background-color: #008b8b;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 70px;
+  margin: 0px;
+  height: 100%;
+}
+.info_one {
+  min-height: 55%;
+  text-align: center;
+  font-size: 15px;
+}
+.info_two {
+  background-color: seagreen;
+  min-height: 45%;
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: left;
+} 
