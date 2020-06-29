@@ -1,4 +1,51 @@
-.contact-info{
-background-color:#4484ce;
+h1 {
+  margin: 20px;
+  padding: 10px;
+  color: #ffffff;
 }
 
+h3 {
+  color: #fd6883;
+}
+
+.left {
+  height: 100%;
+}
+
+.right-row {
+  background-color: #fd6883;
+}
+
+.bi {
+  fill: #fd6883;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+.white {
+  fill: #ffffff;
+  color: #ffffff;
+}
+
+.self-img {
+  alt: "laura-pic";
+  right: 25px;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  margin: 0px auto;
+}
+
+.lower-right-row {
+  padding-top: 10px;
+  background-color: #f8afc0;
+}
+
+.content {
+  padding: 0px;
+  height: 100vh;
+}
+
+.content > .row {
+  height: inherit;
+}
