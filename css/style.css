@@ -30,10 +30,10 @@ h3 {
 .self-img {
   alt: "laura-pic";
   right: 25px;
-  width: 350px;
-  height: 350px;
   padding: 30px;
   margin: 0px auto;
+  width: 100%;
+  height: auto;
 }
 
 .lower-right-row {
@@ -48,4 +48,8 @@ h3 {
 
 .content > .row {
   height: inherit;
+}
+
+.gray {
+  color: #8b8b8b;
 }
