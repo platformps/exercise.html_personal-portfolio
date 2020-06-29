@@ -126,6 +126,11 @@ body {
     padding-left: 10%;
     text-shadow: 2px 2px 3px black;
 }
+
+.progress,
+.progress-bar {
+    height: 12px!important;
+}
 /******************* end about *******************/
 
 /******************* education *******************/
