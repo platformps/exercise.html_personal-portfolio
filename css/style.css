@@ -1,33 +1,85 @@
+/* font Awesome icons */
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
+
+/*Common Styling */
+
 body {
-    background-color: white;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
 }
 
-object {
-    height: 100vh;
-    width: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-.container {
-    background-color: black;
-    color: white;
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #f2f2fc;
+    min-height: 100vh;
+    display: block;
+}
+
+.main-content {
+    padding-left: 270px;
+}
+
+
+/* Aside */
+
+.aside {
+    width: 270px;
+    background-color: #fdf9ff;
     position: fixed;
     height: 100%;
-    width: 200px;
-    left: 0px;
-    margin-top: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border-right: 1px solid #e8dfec;
+    padding: 30px;
 }
 
-.parent {
-    position: absolute;
-    left: 20%;
+.aside .logo {
+    padding: 30px 0;
 }
 
-nav {
-    margin-top: 100px;
-    s
+.aside .logo a {
+    font-size: 40px;
+    color: #302e4d;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
 }
 
-nav ul li {
-    margin: 0px 0px 10px 0px;
+.aside .nav {
+    background-color: #ededed;
+    list-style: none;
+    margin: 80px 0;
 }
+
+.aside .copyright-note {
+    background-color: #ededed;
+}
+
+.aside .logo a {}
+
+
+/* Home */
