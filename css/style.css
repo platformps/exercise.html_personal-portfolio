@@ -8,9 +8,14 @@
 }
 
 .container {
-    margin: 10% auto;
-    width: 80%;
-    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 98vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
