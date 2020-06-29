@@ -1,9 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
-    background-color: navy;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
-
-object {
-    height: 100vh;
-    width: 100vh;
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
 }
+
+.hr-white {
+    border-top: 1px solid white;
+}
+
+.padding {
+    padding: 4rem 2%;
+}
+
+.grey-back {
+    background-image: linear-gradient(to bottom right, #29323c, #485563);
+}
+
+/******************* navbar *******************/
+.navbar {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0 , 0.7)!important;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-brand {
+    font-size: x-large!important;
+    color: #009fe0!important;
+    font-weight: 800;
+}
+
+.nav-item .nav-link {
+    color: white!important;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: #009fe0!important;
+}
+/******************* end navbar *******************/
+
+
+/******************* home *******************/
+.home-inner {
+    background-image: url(../img/python.jpg);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.intro {
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(1, 223, 72);
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-family: 'Maitree', serif;
+    position: absolute;
+    text-align: center;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: rgb(1, 223, 72)!important;
+    border-color: rgb(1, 223, 72)!important;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+    background-color: rgb(1, 223, 72);
+    color: white!important;
+}
+/******************* end home *******************/
+
+/******************* about *******************/
+#about {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.lead {
+    font-weight: 500;
+}
+
+.pic-holder {
+    background-image: url(../img/grad.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin-left: 10%;
+}
+
+#about a {
+    color: white;
+}
+
+#about a:hover {
+    color: #009fe0;
+}
+
+#about h1 {
+    position: relative;
+    font-weight: 700;
+    padding-bottom: 20px; 
+    padding-left: 10%;
+    text-shadow: 2px 2px 3px black;
+}
+
+.progress,
+.progress-bar {
+    height: 12px!important;
+}
+/******************* end about *******************/
+
+/******************* education *******************/
+#education {
+    font-family: 'Lato', sans-serif;
+}
+
+#education h1 {
+    font-weight: 700;
+}
+
+#fixed {
+    background-image: url(../img/tech.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+#fixed li i {
+    padding-right: 6px;
+}
+
+.fa-university {
+    padding: 10px;
+}
+/******************* end education *******************/
+
+/******************* experience *******************/
+#experience {
+    font-family: 'Lato', sans-serif;
+}
+
+#experience h1 {
+    text-shadow: 2px 2px 3px black;
+}
+/******************* end experience *******************/
+
+.separator {
+    background-image: url(../img/code.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    height: 300px;
+    width: 100%;
+}
+
+/******************* footer *******************/
+footer {
+    color: white;
+}
+
+.contact-link {
+    font-size: 2em;
+    padding: 5px;
+    color: white;
+}
+
+/********************************************************/
