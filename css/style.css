@@ -12,7 +12,46 @@ body {
     font-style: italic;
   }
 
+  .header2{
+    background-color: whitesmoke;
+      color: darkcyan;
+      font-size: 90%;
+      font-weight: bold;
+      font-style:italic;
+    }
 
+    .header3{
+      color: whitesmoke;
+      font-size:140%;
+      font-style: initial;
+    }
+
+    .header4{
+      color: whitesmoke;
+      font-size:90%;
+      font-style: initial;
+    }
+
+    .header5{
+      color: whitesmoke;
+      font-size:110%;
+      font-style: initial;
+    }
+
+    #t2 {
+      background-color: whitesmoke;
+      color: darkcyan;
+      font-size:110%;
+      font-style: oblique;
+      tab-size:36;
+    }
+
+    .text1{
+      background-color: whitesmoke;
+      color: slategray;
+      font-size:90%;
+      font-style: oblique;
+    }
 .about-mf .about-img {
   margin-bottom: 2rem;
   color:white;
