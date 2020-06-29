@@ -1,0 +1,96 @@
+.bg-1 {
+    background-color: #40bad5;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+
+}
+
+.bg3-images {
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 8px 5px 3px #555555;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.contact-logo {
+    font-size: 2em;
+    padding: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 5px;
+
+}
+
+.navbar-nav a:hover {
+    background-color: #40bad5 !important;
+    padding: 15px 27px;
+    border-radius: 3px;
+    color: #ffffff !important;
+
+}
+
+ul li {
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 2px;
+}
+
+li {
+    padding: 2px;
+}
+
+.contact a {
+    font-size: 1.5em;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bg-2 h4 {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.education,
+.experience {
+    display: flex;
+    align-content: flex-end;
+}

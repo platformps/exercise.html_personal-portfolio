@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="https:use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+    <!-- ...........  Nav bar section begins................... -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="portfolio.html">PORTFOLIO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="skills.html">SKILLS</a>
+                    <li>
+                        <a href="education.html">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a href="experience.html">EXPERIENCE</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT ME</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ........ Nav bar section ends ................ -->
+
+    <!-- First container Image section beigins....... -->
+    <div class="container-fluid bg-1 text-center">
+        <h3>Who am I?</h3>
+        <img src="https://cdn.pixabay.com/photo/2015/05/26/09/19/success-784350__340.jpg"
+            class="img .img-circle .img-responsive" style="display: inline" alt="Bird">
+        <h3>An Ardent learner</h3>
+    </div>
+    <!-- First container Image section ends...... -->
+
+    <!-- What am I section begins .................... -->
+    <div class="container-fluid bg-2 text-center">
+        <h3>Education</h3>
+        <ul>
+            <h4>Per Scholas Customized Learning: </h4>
+            <li>
+                Charlotte/Remote Learning <span class="education">June 2020 - Present</span>
+                <p> Full Stack Java Developer - Intensive bootcamp learning and hands-on expeperience in application
+                    development in a project environment.</p>
+            </li>
+            <h4>Udemy Bootcamp:</h4>
+            <li>
+                <p> The Complete 2020 Web Development Bootcamp - <span class="education">January 2020 - Present</span>
+                </p>
+                <p>iOS 11 & Swift 4 The Complete iOS App Development Bootcamp</p>
+                <p>Introduction to project management</p>
+            </li>
+            <h4>LinkedIn Learning: </h4>
+            <span class="education">January 2020 - Present</span>
+            <ul>
+                <li>Agile Software Development</li>
+                <li>Introduction to Web APIs</li>
+                <li>SAS Programming EssentialsM</li>
+                <li>Datascience Essentials</li>
+            </ul>
+
+            <h4>Datacamp Learning: </h4>
+            <span class="education">May 2020 - Present</span>
+            <li>
+                <p>
+                    Data Scientist with Python track
+                    <ul>
+                        <li>
+                            Introduction to Python
+                        </li>
+                        <li>
+                            Intermediate Python
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <h4>Master of Science: </h4>
+            <li>
+                Long Island University, Brookly, NY. <span class="education"> Sept 2000 - May 2003</span>
+                Master of Science in Computer Science with Distinction!
+            </li>
+            <h4>Bachelor of Science: </h4>
+            <li>
+                Osmania University, Hyderabad, India. <span class="education">Sept 1995 - Aug 1999</span>
+                Bachelor of Science in Pharmacy.
+            </li>
+
+        </ul>
+        <a href="#footer" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Find me</a>
+    </div>
+
+    <!-- What am I section ends.................. -->
+
+    <!-- Where to find me section begins.............. -->
+    <div class="container-fluid bg-3 text-center">
+        <h3>Where to find me?</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Maryland</p>
+                <img src="./img/NZ3.JPEG" class="bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+            <div class="col-sm-4">
+                <p>Brooklyn, NY</p>
+                <img src="./img/NZ7.JPEG" class="bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+            <div class="col-sm-4">
+                <p>Hyderabad, India</p>
+                <img src="./img/NZ10.JPEG" class="bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+        </div>
+    </div>
+    <!--  Where to find me section ends........ -->
+</body>
+<!--  .. Footer section begins here ....... -->
+<div id="footer">
+    <footer class="container-fluid bg-4 text-center">
+        <p id="copyright"></p>
+        <div class="contact">
+            <a href="https://linkedin.com/in/suresh-kandagatla-8b382a39" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/surikanda" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer id="footer">
+</div>
+
+<!--  Footer ends ..... -->
+<script>
+    let year = new Date().getFullYear();
+    document.getElementById("copyright").innerHTML = "Created by Suresh | Copyright " + year;
+</script>
+
+</html>

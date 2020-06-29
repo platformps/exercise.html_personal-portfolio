@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="https:use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+    <!-- ...........  Nav bar section begins................... -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-nav" href="portfolio.html">PORTFOLIO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="skills.html">SKILLS</a>
+                    <li>
+                        <a href="education.html">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a href="experience.html">EXPERIENCE</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT ME</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ........ Nav bar section ends ................ -->
+
+    <!-- First container Image section beigins....... -->
+    <div class="container-fluid bg-1 text-center">
+        <h3>Who am I?</h3>
+        <img src="./img/suri1.jpg" class="img .img-circle .img-responsive" style="display: inline" alt="Bird">
+        <h3>Suresh Kandagatla</h3>
+        <h4>Full Stack Application Developer <span> | </span> Tech Savvy Pharmacist</h4>
+    </div>
+    <!-- First container Image section ends...... -->
+
+    <!-- What am I section begins .................... -->
+    <div class="container-fluid bg-2 text-center">
+        <h3>What am I?</h3>
+        <ul>
+            <li>
+                Passionate programmer. Skilled application developer. Astute learner with demonstrated ability in
+                various programming languages.
+            </li>
+            <li>
+                Energetic pharmacist with over 17 years of experience, with last 5 years as an entrepreneur, delivering
+                the leadership and insights to take pharmacy operations to new levels of performance.
+            </li>
+            <li>
+                Excel at building, training, and optimizing the performance of large pharmacy teams.
+            </li>
+            <li>
+                Subject matter expert in multiple pharmacy technologies with the proven ability to develop, implement,
+                and manage industry-leading pharmacy systems.
+            </li>
+
+        </ul>
+        <a href="#footer" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Find me</a>
+    </div>
+
+    <!-- What am I section ends.................. -->
+
+    <!-- Where to find me section begins.............. -->
+    <div class="container-fluid bg-3 text-center">
+        <h3>Where to find me?</h3>
+        <h4>Hint: I love nature</h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Maryland</p>
+                <img src="./img/NZ1.jpeg" class=" bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+            <div class="col-sm-4">
+                <p>Banswada, India</p>
+                <img src="./img/NZ2.jpeg" class="bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+            <div class="col-sm-4">
+                <p>Hyderabad, India</p>
+                <img src="./img/NZ5.jpg" class="bg3-images .img-responsive" style="width: 100%" alt="BirdsImage">
+            </div>
+        </div>
+    </div>
+    <!--  Where to find me section ends........ -->
+</body>
+<div id="footer">
+    <footer class="container-fluid bg-4 text-center">
+        <p id="copyright"></p>
+        <div class="contact">
+            <a href="https://linkedin.com/in/suresh-kandagatla-8b382a39" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/surikanda" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer id="footer">
+</div>
+
+<!--  Footer ends ..... -->
+<script>
+    let year = new Date().getFullYear();
+    document.getElementById("copyright").innerHTML = "Created by Suresh | Copyright " + year;
+</script>
+
+</html>
