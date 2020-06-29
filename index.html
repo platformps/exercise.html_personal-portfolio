@@ -15,19 +15,21 @@
   <link href="./css/style.css" rel="stylesheet">
   <script type="text/javascript" src="./js/header-functions.js"></script>
   <script src="https://kit.fontawesome.com/1849ed4b46.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&family=Roboto&display=swap" rel="stylesheet">
 
 </head> <!-- header ends here -->
 
 <body>
   <!-- body begins here -->
   <div class="main">
+    <!-- left container -->
     <div class="left">
       <div class="heading">
-        <i class="fas fa-user-circle fa-lg"> </i><span><strong>CAREER PROFILE</strong></span>
+        <i class="fas fa-user-circle fa-lg"> </i><strong>CAREER PROFILE</strong>
       </div>
       <div>
-        <p> An enthusiastic and skilled web designer with 4+ years of experience in analysis, design, development,
+        <p class="content"> An enthusiastic and skilled web designer with 4+ years of experience in analysis, design,
+          development,
           testing, delivery and production support of application software. Skilled in Java, J2EE, Struts
           Framework,Spring Framework and
           Frontend technologies like HTML,CSS with Bachelors of Engineering degree.</p>
@@ -37,10 +39,10 @@
         <i class="fas fa-briefcase fa-lg"></i><strong>EXPERIENCE</strong>
       </div>
       <div>
-        <p id="heading">Software Developer</p>
+        <p id="sub-heading">Software Developer</p>
         <span id="color">Pune India</span>
         <span id="duration">2010-2014</span>
-        <p>
+        <p class="content" style="margin-top: 20px;">
           Built a Product Service System application and Invoice System application for one of the clients using Struts,
           JSP, Servlet, HTML, and CSS.
           Also implemented MVC architecture by separating the Business Logic from the presentation Logic.As a data
@@ -51,7 +53,15 @@
           Was involved in bugs recording, bug fixing, code review and other maintenance of the application.
         </p>
       </div>
+      <div class="heading">
+        <i class="fas fa-user-graduate fa-lg"> </i><strong>EDUCATION</strong>
+      </div>
+      <div id="education">
+        <p>Bachelors of Engineering (Electronics and Communications) </p>
+        <p>Per Scholas Customized Training (Java Full Stack) </p>
+      </div>
     </div>
+    <!-- right nav bar -->
     <div class="rightnav">
       <div class="profile">
         <img src="img/profile-pic.jpg" alt="Anjali Ghaligi image">
@@ -59,9 +69,12 @@
         <h3>Full Stack Java Developer</h3>
       </div>
       <div class="info">
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
+        <div><i class="fas fa-envelope fa-lg"></i><span>anjali.ghaligi@gmail.com</span></div>
+        <div><i class="fas fa-phone fa-lg"></i><span>980.349.0815</span></div>
+        <div><i class="fab fa-linkedin-in fa-lg"><a
+              href="https://www.linkedin.com/in/anjalighaligi/">https://www.linkedin.com/in/anjalighaligi/</a></i></div>
+        <div> <i class="fab fa-github fa-lg"><a
+              href="https://github.com/AnjaliG927">https://github.com/AnjaliG927</a></i></div>
       </div>
 
     </div>
