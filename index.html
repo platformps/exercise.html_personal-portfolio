@@ -1,57 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- ----------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------- -->
-<head> <!-- header begins here -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+<!-- ---------------------------START HEADER-------------------------- -->
 
-  <link href="./css/style.css" rel="stylesheet">
-  <script type="text/javascript" src="./js/header-functions.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Portfolio" content="">
+    <meta name="James Covington" content="">
 
-</head> <!-- header ends here -->
-<!-- ----------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------- -->
+    <!-- <link href="./css/style.css" rel="stylesheet"> -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="./js/header-functions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<!-- -------------------------END HEADER------------------------------ -->
+
+<!-- ---------------------------START BODY-------------------------- -->
+
+<body>
+    <!-- Start Top Tool Belt -->
+    <div id="top-tool-belt-container" class="container-fluid">
+        <div class="row">
+            <div id="belt" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+            <div id="top-center-container" class="container-fluid">
+                <div class="row d-flex justify-content-center">
+                    <div id="portfolio-icon-holder" class="d-flex justify-content-around">
+                        <img id="portfolio-icon" src="./img/cv.svg" alt="" srcset="">
+                    </div>
+                    <div id="portfolio-container"  class="d-flex " style="flex-direction: column;">
+                        <label  id="portfolio-text">PORTFOLIO</label>
+                    </div>
+                    <div id="portfolio-icon-holder" class="d-flex justify-content-center">
+                        <img id="portfolio-icon" src="./img/cv.svg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Tool Belt -->
+
+    <!-- Space -->
+    <div id="space" class="container-fluid"></div>
+
+    <!-- Start About  -->
+    <div id="about-section" class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 section-content-container">
+        <div class="row d-flex justify-content-center">
+            <h1>HELLO WORLD</h1>
+        </div>
+        <div class="row">
+            <p style="font-size: 50px;">I'm James Covington, I am a Java Developer specializing in Java Desktop
+                Applications and Web Services.</p>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Space -->
+    <div id="space" class="container-fluid"></div>
+
+    <!-- Start Skills  -->
+    <!-- Idea to create a bar graph https://www.otreva.com/blog/create-a-htmlcss-horizontal-bar-graph/ -->
+    <div id="skill-section" class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 section-content-container">
+        <div class="row d-flex justify-content-center">
+            <h1>SKILLS</h1>
+        </div>
+        <div class="row ">
+            <ul class="bargraph">
+                <li class="red">JavaFX</li>
+                <li class="orange">Java</li>
+                <li class="orange">SLF4J</li>
+                <li class="orange">Maven</li>
+                <li class="yellow">SpringBoot</li>
+                <li class="yellow">Swing</li>
+                <li class="green">WebFlux</li>
+                <li class="green">Gradle</li>
+                <li class="light-blue">TIS</li>
+                <li class="purple">C</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Skills -->
+
+    <!-- Space -->
+    <div id="space" class="container-fluid"></div>
+
+    <!-- Start Projects -->
+    <!-- LOGO | NAME/LANGUAGE-FRAMEWORKS -->
+    <div id="project-section" class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 section-content-container">
+        <div class="row d-flex justify-content-center">
+            <h1>PROJECTS</h1>
+        </div>
+        <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!-- TOHSLLUB -->
+            <div class="row">
+                <div>
+                    <img class="logo col-sm" src="./img/tohsllub_icon_128x128.png" alt="">
+                </div>
+                <div class="col-sm container-fluid">
+                    <div class="row col-sm">
+                        <div id="project-name">TOHSLLUB</div>
+                    </div>
+                    <div class="row">
+                        <div id="project-language" style="margin: 5 5 5 5;">JAVA</div>
+                        <div id="project-framework">SpringBoot WebFlux JavaFX SLF4J Lombok NimbusSRP Logback</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Projects -->
+
+    <!-- Space -->
+    <div id="space" class="container-fluid"></div>
+
+    <!-- Start Contacts -->
+    <div id="contact-section" class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 section-content-container">
+        <div class="row d-flex justify-content-center">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon text-center" src="./img/at.svg" alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">
+                <div class="text-center">bwc_semaj@live.com</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon col-md-offset-2" src="./img/reddit.svg" alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">bwc_semaj</div>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon col-md-offset-2" src="./img/smartphone.svg"
+                alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">303-241-5104</div>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon col-md-offset-2" src="./img/github.svg" alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">bwcsemaj</div>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon col-md-offset-2" src="./img/linkedin.svg"
+                alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">James Covington</div>
+        </div>
+        <div class="row d-flex justify-content-center"><img class="icon" src="./img/twitter.svg" alt="">
+            <div style="height: 50px; font-size: 3vh; color: darkgray;">bwc_semaj</div>
+        </div>
+    </div>
+    <!-- End Contacts -->
+
+    <!-- Space -->
+    <div id="space" class="container-fluid"></div>
+
+    <!-- Start Attributes -->
+    <div id="attribute-section" class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 section-content-container">
+        <div class="row d-flex justify-content-center">
+            <h1>ATTRIBUTES</h1>
+        </div>
+        <div class="row d-flex justify-content-center">Icons made by <a
+                href="https://www.flaticon.com/free-icon/at_2089136" title="Those Icons">Those Icons</a>-<a
+                href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect ">Pixel perfect</a>-<a
+                href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
+    </div>
+    <!-- End Attributes -->
 
 
 
 
 
-
-
-
-
-
-
-
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------- -->
-<body> <!-- body begins here -->
-
-
-  The quickest of brown foxes.
-
-
-
-
-  <!-- ====================================================== -->
-  <!-- ====================================================== -->
-  <footer>
-    <!-- footer of page begins here -->
-    <script type="text/javascript" src="./js/footer-functions.js"></script>
-  </footer> <!-- footer of page ends here -->
-  <!-- ====================================================== -->
-  <!-- ====================================================== -->
 
 </body>
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------- -->
+<!-- ---------------------------END BODY-------------------------- -->
+
 
 </html>
